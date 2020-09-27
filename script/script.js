@@ -13,8 +13,8 @@
     const BTN_X = 30;
     const BTN_X_GAP = 220;
     const BTN_Y = 520;
-    const BTN_HEIGHT = 70;
-    const BTN_WIDTH = 100;
+    const BTN_HEIGHT = 140;
+    const BTN_WIDTH = 150;
     const ITEM_G_RATE = 95;
     const EFFECT_TIME = 700;
 
@@ -36,7 +36,7 @@
     let score = null;
     let gen = null;
     let backGround = null;
-    let frame = null;
+    let titleokina = null;
     let scene = 1;
     let transit = null;
     let nowTime = null;
@@ -97,6 +97,9 @@
         imageArray[8].src = "./image/tarai.png";
         imageArray[9] = new Image(CANVAS_WIDTH,CANVAS_HEIGHT);
         imageArray[9].src = "./image/ULOCO2.png";//frame
+
+        titleokina = new Image(300,400);
+        titleokina.src = "./image/runner_left.png";
         
 
         initialize();

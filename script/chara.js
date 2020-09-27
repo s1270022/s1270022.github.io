@@ -200,7 +200,7 @@ class My_Button{
             this.ctx.fillStyle = '#e0ffff';
         }
         this.ctx.font = '40px serif';
-        this.ctx.fillRect(this.x,this.y,this.width,this.height);
+        this.ctx.fillRect(this.x,this.y,100,70);
         this.ctx.fillStyle = '#000080';
         this.ctx.fillText(this.text,this.x+30,this.y+50,80);
     }
